@@ -26,8 +26,8 @@ iptables -A LOG_AND_DROP -j LOG --log-prefix "Dropped: "
 iptables -A LOG_AND_DROP -j DROP
 
 # Allow all traffic from internal network (10.229.1.0/24)
-iptables -A INPUT -s 10.229.1.0/24 -j ACCEPT
-iptables -A FORWARD -s 10.229.1.0/24 -j ACCEPT
+iptables -A INPUT -s 10.229.1.0/24 -d 10.229.1.0/24 -j ACCEPT
+iptables -A FORWARD -s 10.229.1.0/24 -d 10.229.1.0/24 -j ACCEPT
 
 # Allow established connections
 iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
@@ -65,7 +65,7 @@ iptables -A OUTPUT -p tcp --sport 1024:65535 -m state --state NEW,ESTABLISHED -j
 iptables -A OUTPUT -s 10.229.1.2 -d 10.229.10.0/24 -j LOG_AND_DROP
 
 # Drop by default
-iptables -A INPUT -j LOG_AND_DROP
-iptables -A FORWARD -j LOG_AND_DROP
+iptables -A INPUT -d 10.229.1.0/24 -j LOG_AND_DROP
+iptables -A FORWARD -d 10.229.1.0/24 -j LOG_AND_DROP
 
 echo "Firewall rules applied successfully!"
