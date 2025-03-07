@@ -1,0 +1,589 @@
+P`^Bv
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+fclose
+fopen
+calloc
+fgets
+strchr
+__ctype_b_loc
+strdup
+malloc
+realloc
+__stack_chk_fail
+free
+strcmp
+pam_sm_acct_mgmt
+pam_get_user
+pam_syslog
+getpwnam_r
+__errno_location
+getspnam_r
+time
+dcgettext
+strcasecmp
+strncasecmp
+read
+xcrypt_gensalt_r
+strerror
+__asprintf_chk
+strlen
+crypt_r
+sleep
+__sprintf_chk
+fileno
+__fxstat
+mkstemp
+fchmod
+fchown
+fdopen
+putspent
+fgetspent
+putpwent
+fgetpwent
+yp_get_default_domain
+yp_master
+getrpcport
+clnt_create
+authunix_create_default
+xdr_int
+clnt_perrno
+ulckpwdf
+strtol
+yperr_string
+unlink
+rename
+pam_sm_chauthtok
+memset
+pam_get_item
+getuid
+pam_set_item
+memcpy
+xdr_string
+pam_vprompt
+pam_prompt
+__snprintf_chk
+dlopen
+dlsym
+dlerror
+pam_sm_authenticate
+pam_putenv
+geteuid
+program_invocation_name
+pipe
+sigemptyset
+sigaddset
+sigprocmask
+fork
+write
+waitpid
+dup2
+execve
+exit
+pam_sm_setcred
+pam_sm_open_session
+pam_sm_close_session
+strcpy
+fcntl
+strtoul
+dlclose
+llistxattr
+lgetxattr
+lsetxattr
+feof
+__getdelim
+strsep
+abort
+stderr
+__fprintf_chk
+libpam.so.0
+libnsl.so.1
+libdl.so.2
+libcrypt.so.1
+libc.so.6
+__progname_full
+pam_unix2.so
+PAM_UNIX2_1.14
+XCRYPT_2.0
+GLIBC_2.2.5
+LIBPAM_EXTENSION_1.0
+LIBPAM_1.0
+GLIBC_2.14
+GLIBC_2.8
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+u+UH
+AWAVAUATUSH
+[]A\A]A^A_
+D;<$
+D;<$|
+AWAVAUATI
+[A\A]A^A_]
+8"uf
+t	H9
+ATUSH
+[]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUATUSH
+D$X1
+|$ E1
+\$XdH3
+h[]A\A]A^A_
+)D$ 
+AWAVM
+A(dH
+D$(A
+D$(A
+[A\A]A^A_]
+Hv%A
+D$(A
+H9C u
+|$ M
+AWAVAUATSL
+[A\A]A^A_]
+tAE1
+t`USH
+D$@L
+)D$P
+)L$`
+)T$p
+dH34%(
+AWAVI
+AUATUH
+D$h1
+D$hdH3
+[]A\A]A^A_
+T$ H
+T$@Lc
+D$ H
+t$0D
+d$(M
+D$(H
+T$@H
+D$HA
+T$0H
+|$(H
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUATSL
+[A\A]A^A_]
+8"ug
+8xub
+AWAVAUI
+ATSH
+[A\A]A^A_]
+D$h1
+)D$0H
+)D$@
+)D$P
+T$ H
+|$(L
+t$8H
+D$hdH3
+]A\A]
+AWAVAUI
+[A\A]A^A_]
+ATUSH
+|$8dH
+D$H1
+D$HdH3
+X[]A\A]A^A_
+l$8I
+D$@Mc
+D$ O
+$<:t
+|$@L
+L$@H
+|$(H
+L$@L
+L$(H
+t$ H
+|$@H
+L$@H
+<:tn
+t$ H
+|$@H
+<:t)
+D$@H9
+ATUSH
+|$(dH
+D$81
+D$8dH3
+H[]A\A]A^A_
+l$(I
+D$0Mc
+$<:t
+T$0H
+<:t^
+T$0H
+ATUH
+AWAVAUI
+ATSH
+;"u=I
+[A\A]A^A_]
+;"u6I
+>"u5I
+>"u[I
+AWAVAUI
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+([]A\A]A^A_
+ATSH
+AVAUATL
+([]A\A]A^A_
+t0f.
+ATUH
+8"t%
+[]A\A]
+ATUH
+[]A\A]
+/etc/nsswitch.conf
+files
+account
+cannot get options
+pam_sm_acct_mgmt() called
+bad username [%s]
+username=[%s]
+pam_sm_acct_mgmt
+Account is locked for %s
+Age field for %s is wrong
+pam_unix2
+expire() returned with %d
+name == NULL, return PAM_SERVICE_ERR
+Cannot find passwd entry for %s
+Password entry is empty for %s
+Your password has expired. Choose a new password.
+Password change requested. Choose a new password.
+Your password will expire in %ld days.
+Your password will expire tomorrow.
+Your password will expire within 24 hours.
+nullok
+use_first_pass
+use_authtok
+nisdir=
+debug
+session
+trace
+none
+use_ldap
+use_krb5
+call_modules=
+Unknown option: `%s'
+/etc
+/dev/urandom
+CRYPT_FILES
+CRYPT_NIS
+CRYPT_LDAP
+CRYPT
+CRYPT_YP
+bigcrypt
+blowfish
+BLOWFISH_%s
+Blowfish crypt_rounds=%d
+$2a$
+crypt_r: Don't know %d
+/shadow.tmpXXXXXX
+%s%s
+/shadow
+%s%s.old
+Cannot open %s: %m
+Cannot stat %s: %m
+/passwd.tmpXXXXXX
+/passwd
+passwd.byname
+password
+pam_sm_chauthtok() called
+pam_sm_chauthtok
+No old password found.
+use_first_pass set -> abort.
+Old Password: 
+Password change aborted.
+Reenter New Password: 
+Passwords do not match.
+Error: Password NOT changed.
+Password changed.
+Cannot open %s for reading: %s
+Unable to obtain entropy from %s
+Unable to generate a salt. Check your crypt settings.
+No bigcrypt support compiled in
+Don't know "%s", fall back to DES
+Cannot create salt for standard crypt
+Cannot create salt for MD5 crypt
+No support for bigcrypt included
+Cannot create salt for blowfish crypt
+crypt_r() returns NULL pointer
+Cannot lock password file: already locked.
+Cannot create temp file (%s): %m
+Cannot change permssions of %s: %m
+Cannot change owner/group of %s: %m
+Error while writing new shadow file: %m
+Error while closing old shadow file: %m
+Error while closing temporary shadow file: %m
+Cannot create backup file of %s: %m
+Error while writing new password file: %m
+Error while closing old password file: %m
+Error while closing temporary password file: %m
+Cannot find the master ypserver: %s
+yppasswdd not running on NIS master %s
+yppasswd daemon running on illegal port.
+Changing NIS password for %s on %s.
+Error while changing the NIS password.
+pam_get_user failed: return %d
+user "%s" does not exist in /etc/passwd or NIS
+You can only change local passwords.
+old password is NULL -> abort.
+old password is empty which is not allowed -> abort.
+old password is wrong -> abort.
+Less then %d weeks since the last change.
+Less then %d days since the last change.
+login: 
+/lib/security
+%s/pam_%s.so
+dlopen("%s") failed: %s
+dlsym failed: %s
+pam_%s/%s() returned %d
+pam_set_item (PAM_USER) failed with %d
+auth
+pam_sm_authenticate() called
+pam_sm_authenticate
+chsh
+chfn
+PAM_AUTHTOK=%s
+return PAM_AUTH_ERR
+return PAM_SUCCESS
+/sbin/unix2_chkpwd
+running helper binary
+could not make pipe
+fork failed
+returning %d
+pam_sm_setcred() called
+pam_sm_setcred
+pam_sm_setcred: %d
+pam_sm_setcred: PAM_SUCCESS
+pam_get_item (PAM_AUTHTOK) failed, return %d
+Cannot get stacked password, don't ask for it
+__get_tokens failed with %d, exit
+Cannot get password, return PAM_AUTHTOK_RECOVERY_ERR
+Permissions on the password database may be too restrictive.
+_unix2_run_helper_binary called.
+helper binary is not available
+wrong password, return PAM_AUTH_ERR
+pam_sm_authenticate: PAM_SUCCESS
+started
+finished
+session %s for user %s: service=%s, tty=%s
+session %s for user %s: service=%s, rhost=%s
+session %s for user %s: service=%s, tty=%s, rhost=%s
+session %s for user %s: service=%s
+passwd_compat
+libnss_nis.so.2
+_nss_nis_getpwnam_r
+libnss_ldap.so.2
+_nss_ldap_getpwnam_r
+_nss_nis_getspnam_r
+_nss_ldap_getspnam_r
+listing attributes of %s
+running out of memory!
+getting attribute %s of %s
+setting attributes for %s
+setting attribute %s for %s
+/etc/login.defs
+/etc/security/pam_unix2.default
+login.defs: %s contains invalid numerical value: %s!
+:*3$"
+GCC: (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+logindefs.c
+search
+list
+load_defaults_internal
+load_defaults_internal.cold
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.8059
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+passwd_nss.c
+setnswent
+nssfile
+getnswent
+unix_acct.c
+get_options.c
+add_other_module.isra.0
+unix_passwd.c
+make_crypt_salt
+__do_setpass
+yppasswd_xdr.c
+support.c
+unix_auth.c
+envp.7548
+unix_sess.c
+pam_log_session.isra.0
+read-files.c
+internal_setent.constprop.0
+getuser.c
+copy_xattr.c
+selinux_utils.c
+__FRAME_END__
+xdr_yppasswd
+getlogindefs_bool
+__write_message
+free_user_t
+_getnswbyname
+__get_tokens
+nsw_free
+_fini
+copy_xattr
+__do_getpwnam
+str2week
+getlogindefs_unum
+getlogindefs_str
+__dso_handle
+free_getlogindefs_data
+files_getspnam_r
+files_getpwnam_r
+files_etc_dir
+_DYNAMIC
+getlogindefs_num
+get_options
+__call_other_module
+__GNU_EH_FRAME_HDR
+__TMC_END__
+_GLOBAL_OFFSET_TABLE_
+__get_passwd
+_init
+sigprocmask@@GLIBC_2.2.5
+__snprintf_chk@@GLIBC_2.3.4
+free@@GLIBC_2.2.5
+strcasecmp@@GLIBC_2.2.5
+abort@@GLIBC_2.2.5
+__errno_location@@GLIBC_2.2.5
+unlink@@GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+strcpy@@GLIBC_2.2.5
+pam_set_item@@LIBPAM_1.0
+putspent@@GLIBC_2.2.5
+pam_vprompt@@LIBPAM_EXTENSION_1.0
+pam_sm_setcred
+pam_prompt@@LIBPAM_EXTENSION_1.0
+PAM_UNIX2_1.14
+llistxattr@@GLIBC_2.3
+fcntl@@GLIBC_2.2.5
+write@@GLIBC_2.2.5
+fclose@@GLIBC_2.2.5
+getspnam_r@@GLIBC_2.2.5
+lgetxattr@@GLIBC_2.3
+dcgettext@@GLIBC_2.2.5
+strlen@@GLIBC_2.2.5
+__stack_chk_fail@@GLIBC_2.4
+getuid@@GLIBC_2.2.5
+dup2@@GLIBC_2.2.5
+strchr@@GLIBC_2.2.5
+memset@@GLIBC_2.2.5
+geteuid@@GLIBC_2.2.5
+authunix_create_default@@GLIBC_2.2.5
+pipe@@GLIBC_2.2.5
+pam_sm_chauthtok
+read@@GLIBC_2.2.5
+fgets@@GLIBC_2.2.5
+execve@@GLIBC_2.2.5
+xdr_string@@GLIBC_2.2.5
+__asprintf_chk@@GLIBC_2.8
+calloc@@GLIBC_2.2.5
+pam_sm_close_session
+__getdelim@@GLIBC_2.2.5
+strcmp@@GLIBC_2.2.5
+sigemptyset@@GLIBC_2.2.5
+feof@@GLIBC_2.2.5
+__gmon_start__
+yp_master@@GLIBC_2.2.5
+strtol@@GLIBC_2.2.5
+memcpy@@GLIBC_2.14
+yp_get_default_domain@@GLIBC_2.2.5
+program_invocation_name@@GLIBC_2.2.5
+clnt_perrno@@GLIBC_2.2.5
+time@@GLIBC_2.2.5
+fileno@@GLIBC_2.2.5
+dlopen@@GLIBC_2.2.5
+malloc@@GLIBC_2.2.5
+strncasecmp@@GLIBC_2.2.5
+pam_sm_acct_mgmt
+strsep@@GLIBC_2.2.5
+fgetpwent@@GLIBC_2.2.5
+__fxstat@@GLIBC_2.2.5
+lsetxattr@@GLIBC_2.3
+mkstemp@@GLIBC_2.2.5
+xdr_int@@GLIBC_2.2.5
+fgetspent@@GLIBC_2.2.5
+crypt_r@@XCRYPT_2.0
+dlclose@@GLIBC_2.2.5
+realloc@@GLIBC_2.2.5
+yperr_string@@GLIBC_2.2.5
+fdopen@@GLIBC_2.2.5
+getpwnam_r@@GLIBC_2.2.5
+fchmod@@GLIBC_2.2.5
+pam_syslog@@LIBPAM_EXTENSION_1.0
+pam_putenv@@LIBPAM_1.0
+__progname_full@@GLIBC_2.2.5
+pam_sm_open_session
+xcrypt_gensalt_r@@XCRYPT_2.0
+waitpid@@GLIBC_2.2.5
+clnt_create@@GLIBC_2.2.5
+fchown@@GLIBC_2.2.5
+fopen@@GLIBC_2.2.5
+ulckpwdf@@GLIBC_2.2.5
+pam_get_item@@LIBPAM_1.0
+rename@@GLIBC_2.2.5
+strtoul@@GLIBC_2.2.5
+pam_get_user@@LIBPAM_1.0
+pam_sm_authenticate
+exit@@GLIBC_2.2.5
+__fprintf_chk@@GLIBC_2.3.4
+_ITM_registerTMCloneTable
+strdup@@GLIBC_2.2.5
+putpwent@@GLIBC_2.2.5
+strerror@@GLIBC_2.2.5
+dlsym@@GLIBC_2.2.5
+sleep@@GLIBC_2.2.5
+__cxa_finalize@@GLIBC_2.2.5
+sigaddset@@GLIBC_2.2.5
+fork@@GLIBC_2.2.5
+getrpcport@@GLIBC_2.2.5
+dlerror@@GLIBC_2.2.5
+__ctype_b_loc@@GLIBC_2.3
+stderr@@GLIBC_2.2.5
+__sprintf_chk@@GLIBC_2.3.4
+.symtab
+.strtab
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got.plt
+.data
+.bss
+.comment
