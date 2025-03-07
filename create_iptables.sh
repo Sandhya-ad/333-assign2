@@ -62,7 +62,7 @@ iptables -A INPUT -p tcp --dport 1024:65535 -m state --state ESTABLISHED -j ACCE
 iptables -A OUTPUT -p tcp --sport 1024:65535 -m state --state NEW,ESTABLISHED -j ACCEPT
 
 # Block Windows from accessing 10.229.10.0/24 (outbound)
-iptables -A OUTPUT -s 10.229.1.2 -d 10.229.10.0/24 -j LOG_AND_DROP
+iptables -A FORWARD -s 10.229.1.2 -d 10.229.10.0/24 -j LOG_AND_DROP
 
 # Drop by default
 iptables -A INPUT -d 10.229.1.0/24 -j LOG_AND_DROP
