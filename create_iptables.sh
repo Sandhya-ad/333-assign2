@@ -17,14 +17,13 @@ iptables -t nat -F
 iptables -t mangle -F
 
 
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+
 iptables -N LOG_AND_DROP
 iptables -A LOG_AND_DROP -j LOG --log-prefix "Dropped: "
 iptables -A LOG_AND_DROP -j DROP
-
-# Default Policies
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
-iptables -P OUTPUT ACCEPT
 
 # Allow all traffic from internal network (10.229.1.0/24)
 iptables -A INPUT -s 10.229.1.0/24 -j ACCEPT
@@ -64,5 +63,16 @@ iptables -A OUTPUT -p tcp --sport 1024:65535 -m state --state NEW,ESTABLISHED -j
 
 # Block Windows from accessing 10.229.10.0/24 (outbound)
 iptables -A OUTPUT -s 10.229.1.2 -d 10.229.10.0/24 -j LOG_AND_DROP
+
+
+
+
+# Drop by default
+
+iptables -A INPUT -j LOG --log-prefix "Dropped by default: "
+iptables -A INPUT -j DROP
+
+iptables -A FORWARD -j LOG --log-prefix "Dropped by default: "
+iptables -A FORWARD -j DROP
 
 echo "Firewall rules applied successfully!"
