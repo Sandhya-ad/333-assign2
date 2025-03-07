@@ -30,12 +30,12 @@ iptables -A INPUT -s 10.229.1.0/24 -d 10.229.1.0/24 -j ACCEPT
 iptables -A FORWARD -s 10.229.1.0/24 -d 10.229.1.0/24 -j ACCEPT
 
 # Allow established connections
-iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
-iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
+# iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+# iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
 
 # Allow SSH (port 22) for all hosts
-# iptables -A INPUT -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
-# iptables -A FORWARD -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
 
 # Allow ICMP (ping) from any host
 iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
