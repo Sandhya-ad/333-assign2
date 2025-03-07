@@ -64,15 +64,8 @@ iptables -A OUTPUT -p tcp --sport 1024:65535 -m state --state NEW,ESTABLISHED -j
 # Block Windows from accessing 10.229.10.0/24 (outbound)
 iptables -A OUTPUT -s 10.229.1.2 -d 10.229.10.0/24 -j LOG_AND_DROP
 
-
-
-
 # Drop by default
-
-iptables -A INPUT -j LOG --log-prefix "Dropped by default: "
-iptables -A INPUT -j DROP
-
-iptables -A FORWARD -j LOG --log-prefix "Dropped by default: "
-iptables -A FORWARD -j DROP
+iptables -A INPUT -j LOG_AND_DROP
+iptables -A FORWARD -j LOG_AND_DROP
 
 echo "Firewall rules applied successfully!"
